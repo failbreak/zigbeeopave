@@ -7,8 +7,12 @@ if [ -d ./zigbeeopgave ]; then
   echo "Finished downloading files"
 else
   mkdir zigbeeopgave
+  cd ./zigbeeopgave
+  getfilesfromgit
   
 fi
+runzigbee
+
 
 getfilesfromgit(){
   echo "Downloading config files"
