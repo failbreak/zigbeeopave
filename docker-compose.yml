@@ -22,4 +22,4 @@ services:
         environment:
             - TZ=Europe/Berlin
         devices:
-            - /dev/ttyUSB0:/dev/ttyUSB0
+            - /dev/ttyUSB0:/dev/ttyACM0
