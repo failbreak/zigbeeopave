@@ -6,10 +6,10 @@ mqtt:
     server: mqtt://mqtt
 # Zigbee Adapter path
 serial:
+    adapter: zboss
     port: /dev/ttyUSB0
 # Enable the Zigbee2MQTT frontend
 frontend:
-    adapter: zboss
     port: 8080
 # Let Zigbee2MQTT generate a new network key on first start
 advanced:
